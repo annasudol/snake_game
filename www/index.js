@@ -1,3 +1,4 @@
+
 import init, { World } from "snake_game";
 
 init().then(_ => {

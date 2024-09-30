@@ -22,3 +22,5 @@ impl World {
         self.width
     }
 }
+
+// wasm-pack build --target web
