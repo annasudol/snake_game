@@ -1,12 +1,9 @@
 
 use wasm_bindgen::prelude::*;
-use wee_alloc::WeeAlloc;
 
 #[wasm_bindgen]
-pub fn greet(str: &str) {
-    println!("{}", str)
+pub fn greet(name: &str) {
+    println!("Hi there {}", name);
 }
-fn main() {
-    println!("Hello, world!");
-    greet("hello")
-}
+
+// wasm-pack build --target web
